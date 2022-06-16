@@ -40,12 +40,9 @@
 <!--                <version>3.0.0</version>-->
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-    <scm>
-        <developerConnection>scm:git:https://git@github.com/nkh1987/animalClinicManagement</developerConnection>
-    </scm>
-
 </project>
