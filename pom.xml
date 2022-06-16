@@ -6,13 +6,13 @@
 
     <groupId>com.autotradingwiz</groupId>
     <artifactId>animalClinicManagement</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>animalClinicManagement</name>
     <description>animalClinicManagement</description>
 
     <modules>
         <module>data</module>
-<!--        <module>web</module>-->
+        <module>web</module>
     </modules>
 
     <parent>
