@@ -11,10 +11,10 @@
     <name>animalClinicManagement</name>
     <description>animalClinicManagement</description>
 
-    <modules>
-        <module>data</module>
-        <module>web</module>
-    </modules>
+<!--    <modules>-->
+<!--        <module>data</module>-->
+<!--        <module>web</module>-->
+<!--    </modules>-->
 
     <parent>
         <groupId>org.springframework.boot</groupId>
