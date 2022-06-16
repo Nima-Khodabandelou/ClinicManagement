@@ -37,6 +37,6 @@
         </plugins>
     </build>
     <scm>
-        <developerConnection>scm:gi:https://git@github.com/nkh1987/animalClinicManagement</developerConnection>
+        <developerConnection>scm:git:https://git@github.com/nkh1987/animalClinicManagement</developerConnection>
     </scm>
 </project>
