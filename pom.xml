@@ -6,7 +6,7 @@
 
     <groupId>com.autotradingwiz</groupId>
     <artifactId>animalClinicManagement</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>animalClinicManagement</name>
     <description>animalClinicManagement</description>
 
@@ -46,6 +46,6 @@
     </build>
     <scm>
         <developerConnection>scm:git:https://git@github.com/nkh1987/animalClinicManagement</developerConnection>
-      <tag>animalClinicManagement-0.0.2</tag>
+      <tag>HEAD</tag>
   </scm>
 </project>
