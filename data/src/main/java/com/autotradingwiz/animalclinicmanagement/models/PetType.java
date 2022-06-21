@@ -1,4 +1,4 @@
 package com.autotradingwiz.animalclinicmanagement.models;
 
-public class PetType {
+public class PetType extends BaseEntity {
 }
