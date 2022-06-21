@@ -1,4 +1,4 @@
-package com.autotradingwiz.animalclinicmanagement.model;
+package com.autotradingwiz.animalclinicmanagement.models;
 
 public class Person {
     private String firstName;
