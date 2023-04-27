@@ -1,8 +1,11 @@
 package com.autotradingwiz.animalclinicmanagement.controllers;
 
 import com.autotradingwiz.animalclinicmanagement.services.VetService;
+
 import org.springframework.stereotype.Controller;
+
 import org.springframework.ui.Model;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -20,5 +23,7 @@ public class VetController {
         model.addAttribute("vets", vetService.findAll());
 
         return "vets/index";
+
     }
+
 }
