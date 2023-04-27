@@ -1,7 +1,9 @@
 package com.autotradingwiz.animalclinicmanagement.controllers;
 
 import com.autotradingwiz.animalclinicmanagement.services.OwnerService;
+
 import org.springframework.stereotype.Controller;
+
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -21,5 +23,7 @@ public class OwnerController {
         model.addAttribute("owners", ownerService.findAll());
 
         return "owners/index";
+
     }
+
 }
