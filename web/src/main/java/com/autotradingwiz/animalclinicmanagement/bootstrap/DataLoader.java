@@ -1,11 +1,17 @@
 package com.autotradingwiz.animalclinicmanagement.bootstrap;
 
 import com.autotradingwiz.animalclinicmanagement.models.*;
+
 import com.autotradingwiz.animalclinicmanagement.services.OwnerService;
+
 import com.autotradingwiz.animalclinicmanagement.services.PetTypeService;
+
 import com.autotradingwiz.animalclinicmanagement.services.SpecialityService;
+
 import com.autotradingwiz.animalclinicmanagement.services.VetService;
+
 import org.springframework.boot.CommandLineRunner;
+
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
@@ -16,6 +22,7 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
     private final PetTypeService petTypeService;
+
     private final SpecialityService specialityService;
 
     public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService, SpecialityService specialityService) {
@@ -30,6 +37,7 @@ public class DataLoader implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         int count = petTypeService.findAll().size();
+
         if (count == 0) {
             loadData();
         }
